@@ -1,0 +1,9 @@
+11
+Beeps of varying pitches
+Sounds/onebeeplongfade
+Long Beep Fade - Horizontal
+1
+2
+0
+lowleftlongfade.wav
+highrightlongfade.wav

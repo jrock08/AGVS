@@ -1,0 +1,16 @@
+4
+Beeps of varying pitches
+Sounds/onebeepshort
+Short Beep - Vertical
+1
+3
+3
+highleftshort.wav
+highcentershort.wav
+highrightshort.wav
+midleftshort.wav
+midcentershort.wav
+midrightshort.wav
+lowleftshort.wav
+lowcentershort.wav
+lowrightshort.wav

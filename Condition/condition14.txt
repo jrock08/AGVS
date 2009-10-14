@@ -1,0 +1,11 @@
+14
+Spoken position
+Sounds/spokenposhorzfirst
+2x2 Spoken position Horz First
+1
+2
+2
+LeftHigh.wav
+RightHigh.wav
+LeftLow.wav
+RightLow.wav

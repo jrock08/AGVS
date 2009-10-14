@@ -1,0 +1,11 @@
+9
+Beeps of varying pitches
+Sounds/onebeepshortfade
+Short Beep Fade - Vertical
+1
+2
+2
+highleftshortfade.wav
+highrightshortfade.wav
+lowleftshortfade.wav
+lowrightshortfade.wav

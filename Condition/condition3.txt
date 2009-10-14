@@ -1,0 +1,10 @@
+3
+Beeps of varying pitches
+Sounds/onebeeplong
+Long Beep - Horizontal
+1
+3
+0
+lowleftlong.wav
+midcenterlong.wav
+highrightlong.wav
