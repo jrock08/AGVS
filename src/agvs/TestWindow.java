@@ -17,6 +17,7 @@ import java.util.Vector;
 import java.io.*;
 import java.util.*;
 import agvs.audio.*;
+import javax.sound.sampled.Clip;
 
 /**
  * 
@@ -65,6 +66,7 @@ public class TestWindow implements MouseListener {
 	/** hcond, vcond - horizontal and vertical cue */
 	private Condition hcond;
 	private Condition vcond;
+	private Clip loop;
 	
 	/** resX, resY - X and Y resolution for the window */
 	private int resX; //= 1024; //1280
@@ -142,6 +144,13 @@ public class TestWindow implements MouseListener {
 			System.out.println("targetimage not found!");
 			System.exit(1);
 		}
+		//TODO: Initialize noise audio loop
+		loop = null;
+		if(noise == 1){	
+			loop = LoopedNoise.loopNoise("Sounds/Noise","tank.wav");
+		}
+		
+		
 		
 		// Initialize startPanel
 		startPanel = new JPanel( new GridBagLayout()) {
@@ -327,6 +336,9 @@ public class TestWindow implements MouseListener {
 		//System.out.println( "countTrials = " + countTrials + " numberTrials = " + numberTrials);
 		if( (countTrials >= numberTrials) ){
 			//System.out.println("Closing test window now!");
+			
+			//TODO: kill noise audio loop here
+			LoopedNoise.endLoop(loop);
 			f.dispose();
 		}
 		
